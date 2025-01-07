@@ -1,0 +1,21 @@
+{
+    "region": "Belgium", 
+    "recievers": "./Receiver/ghent_antwerp_random_200points_in_dwellings.csv",
+    "srid recievers": 4326, 
+	"PID": "PID",
+    "indicators save": "./Predictions/GA200dw.npy", 
+    "geom save": "./Predictions/GA200dwMLgeom4b.npy", 
+    "indicators backup": "./Predictions/GA200dwML4b_backup.npy", 
+    "geom backup": "./Predictions/GA200dwMLgeom4b_backup.npy", 
+    "recievers backup": "./Predictions/GA200dwML4b_recievers_backup.csv", 
+    "features save": "./Predictions/GA200dwMLfeatures4b.npy", 
+    "hourlyshape save": "./Predictions/GA200dwML4b.shp", 
+    "dwellingshape save": "./Predictions/GA200dwDwelling4b.shp", 
+    "traffic save": "./Predictions/GA200dwTraffic", 
+    "read EB": true, 
+    "building nearby": false, 
+    "preload buildings": true, 
+    "buildings save": "./Predictions/GA200dwBuildings.shp",
+    "srid": 31370, 
+    "buffer": 10000
+}

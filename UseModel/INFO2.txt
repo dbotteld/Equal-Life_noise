@@ -1,0 +1,21 @@
+CNNbetter: best CNN ML model up untill now. Used to analyse new data.
+
+DataCityEB: road data of cities (geometry, lanes, oneway, ...) with edge betweenness data
+
+Predictions: folder where predictions done using the analyseEB_DP.ipynb script end up.
+
+Receiver: folder with receiver information for different locations (only .csv is read)
+
+analyseEB_DP.ipynb: analyse new receiver data + calculate each hour + optionally choose between EB road data or OSM road data.
+
+CustomInput(/Output)ScalerPBF1.pkl: scaler of best CNN model
+
+InterpretResults.ipynb: interprets results in the Predictions folder (hour model + all receivers at 14h)
+
+July2022ColinHowTO.docx: file with other information that also could be usefull
+
+ml_indicators(_EB).py: used to make input data for ML model; ml_indicators_EB2 corrects trunk
+
+scaler_input.pkl/scaler_output.pkl: scaler of best non-CNN model
+
+train-Copy1.ipynb: same as analyseEB_DP.ipynb, but for regular ML model with no EB data and no diurnal pattern information.
