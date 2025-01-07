@@ -39,7 +39,3 @@ the trained model: file_model = 'CNN4values_new140epochs'
 the input feature scaler: file_input_scaler = 'CustomGroupInputScaler.pkl'
 The output indicator scaler: file_output_scaler = 'CustomOutputScalerPBF2.pkl'
 
-# Buildmodel
-The code for training a new model based on extended calculations. Postprocessing is included in the  ml_indicators_for_area.py script
-
-#
